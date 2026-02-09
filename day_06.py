@@ -7,7 +7,7 @@ def count_light(input_text):
 
     for command in instr:
         temp = command.replace('turn on ','').replace('turn off ','').replace('toggle ','').replace(' through ',',').strip()
-        print(temp)
+        # print(temp)
 
         a, b, c, d = map(int, temp.split(','))
 
